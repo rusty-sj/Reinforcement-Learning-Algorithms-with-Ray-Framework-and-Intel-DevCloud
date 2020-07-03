@@ -1,4 +1,4 @@
-# Reinforcement Learning Algorithms with Ray Framework Intel DevCloud
+# Reinforcement Learning Algorithms with Ray Framework & Intel DevCloud
 
 This repository contains implementations of certain crucial algorithms in the field of [reinforcement learning](http://incompleteideas.net/book/the-book-2nd.html "Sutton & Barto Book: Reinforcement Learning: An Introduction"). 
 
