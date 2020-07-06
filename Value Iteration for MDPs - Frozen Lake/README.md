@@ -22,8 +22,14 @@ The pseudocode for the algorithm is as follows:
 [FrozenLake](https://github.com/openai/gym/blob/master/gym/envs/toy_text/frozen_lake.py) is used as the MDP environment.
 
 Following are the State Value image views after running the VI algorithm 3 different maps of sizes 8x8, 16x16, and 32x32 wherein cells represent number of states:
-![8x8]()
-![16x16]()
-![32x32]()
 
-The Jupyter Notebook has synchronous and distributed implementations of VI along with the plots comparing the different approaches.
+
+<p float="left">
+<img src="/Value%20Iteration%20for%20MDPs%20-%20Frozen%20Lake/State%20Value%20Image%20Views/dist_vi_v2_8.png?raw=true" alt="8x8" width="300"/>
+
+<img src="/Value%20Iteration%20for%20MDPs%20-%20Frozen%20Lake/State%20Value%20Image%20Views/dist_vi_v2_16.png?raw=true" alt="16x16" width="300"/>
+
+<img src="/Value%20Iteration%20for%20MDPs%20-%20Frozen%20Lake/State%20Value%20Image%20Views/dist_vi_v2_32.png?raw=true" alt="32x32" width="300"/>
+</p>
+
+The [Jupyter Notebook](https://github.com/rusty-sj/Reinforcement-Learning-Algorithms-with-Ray-Framework-and-Intel-DevCloud/blob/master/Value%20Iteration%20for%20MDPs%20-%20Frozen%20Lake/Value%20Iteration%20Algorithm.ipynb) has synchronous and distributed implementations of VI along with the plots comparing the different approaches.
