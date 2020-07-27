@@ -1,6 +1,6 @@
 ## Value Iteration algorithm with FrozenLake MDP environment
 The goal of this exercise is to implement both single-core and distributed versions of value iteration (VI) algorithm for solving Markov Decision Processes (MDPs). 
-In particular, VI will be applied to MDPs in order to compute policies that optimize expected infinite horizon discounted cummulative reward. 
+In particular, VI is applied to MDPs in order to compute policies that optimize expected infinite horizon discounted cummulative reward. 
 
 
 The VI algorithm is iterative and each iteration produces a newly updated value function based on the value function from the previous iteration. 
