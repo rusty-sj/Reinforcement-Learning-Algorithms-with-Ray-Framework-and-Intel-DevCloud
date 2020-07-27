@@ -1,6 +1,6 @@
 ## Q-learning and SARSA using Temporal Difference Learning (FrozenLake)
 The goal of this exercise is to implement both single-core and distributed versions of of two [temporal difference (TD)](https://en.wikipedia.org/wiki/Temporal_difference_learning) reinforcement learning algorithms, 
-Q-Learning and SARSA. In particuar, Q-Learning and SARSA will be run in a Markov Decision Process environment in order to compute policies 
+Q-Learning and SARSA. In particular, Q-Learning and SARSA are run in a Markov Decision Process environment in order to compute policies 
 that optimize expected infinite horizon discounted cummulative reward.
 
 
