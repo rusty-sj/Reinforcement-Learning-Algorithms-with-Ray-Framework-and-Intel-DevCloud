@@ -21,6 +21,16 @@ The off-policy nature of Q-Learning makes it more directly compatible with distr
 
 [FrozenLake](https://github.com/openai/gym/blob/master/gym/envs/toy_text/frozen_lake.py) is used as the MDP environment.
 
+As seen in the diagram below, the 4-core version of Q-learning performs better than both single core Q-learning and single core SARSA.
+
+<img src="/Q-learning and SARSA with Temporal Difference Learning - FrozenLake/Performance Graphs/Dist-vs-Nondist.png?raw=true" alt="8x8" width="600"/>
+
+However, if we experiment with changing the number of cores in distributed setting, the performance enhances from 2-core to 4-core and then it degrades from 4-core to 8-core. This could probably mean that the communication overhead overwhelms the 8-core version; leading to worse performance.
+
+<img src="/Q-learning and SARSA with Temporal Difference Learning - FrozenLake/Performance Graphs/workers.png?raw=true" alt="8x8" width="600"/>
+
 [Notebook for map 8x8](https://github.com/rusty-sj/Reinforcement-Learning-Algorithms-with-Ray-Framework-and-Intel-DevCloud/blob/master/Q-learning%20and%20SARSA%20with%20Temporal%20Difference%20Learning%20-%20FrozenLake/TD-Learning-map-8.ipynb)
 
 [Notebook for map 16x16](https://github.com/rusty-sj/Reinforcement-Learning-Algorithms-with-Ray-Framework-and-Intel-DevCloud/blob/master/Q-learning%20and%20SARSA%20with%20Temporal%20Difference%20Learning%20-%20FrozenLake/TD-Learning-map-16.ipynb)
+
+
