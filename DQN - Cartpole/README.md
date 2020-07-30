@@ -3,7 +3,7 @@ The goal of this exercise is to implement and experiment with both single-core a
 [Deep Q Networks (DQN)](https://deepmind.com/research/open-source/dqn). 
 In particular, DQN is run in the classic RL benchmark Cart-Pole and ablation experiments are run to observe the impact of the different DQN components.
 
-The pseudo code for the algorithm is as follows:
+The general DQN algorithm is as follows:
 
 1. Initial “experience replay” data set D
 2. Initialize update networkparameters θ
